@@ -2,6 +2,14 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+.container {
+  display: flex;
+  flex-flow: row nowrap; /* Align on the same line */
+  justify-content: space-between; /* Equal margin between the child elements */
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 200px;
+}
 
 body {
   margin: 0;
@@ -42,15 +50,26 @@ body {
   <a href="table.html">Table</a>
 </div>
 
+<div class = "container">
 
-<iframe align = "left" width="300" height="200" src="https://www.youtube.com/embed/nAc6sGXLueY">
-</iframe>
+  <div class = "left">
+    <iframe align = "left" width="300" height="200" src="https://www.youtube.com/embed/nAc6sGXLueY">
+    </iframe>
+  </div>
+  <div class = "center">
+    <iframe  align="left" class="center-block" width="300" height="200" src="https://www.youtube.com/embed/odc0ajxCq2c">
+    </iframe>
+  </div>
+  <div class = "right">
+    <iframe align = "right" width="300" height="200" src="https://www.youtube.com/embed/so8E3Cp_OAw">
+    </iframe>
+  </div>
+  
+  
 
-<iframe align = "middle" width="300" height="200" src="https://www.youtube.com/embed/odc0ajxCq2c">
-</iframe>
+</div>
 
-<iframe align = "right" width="300" height="200" src="https://www.youtube.com/embed/so8E3Cp_OAw">
-</iframe>
+
 
 
 
